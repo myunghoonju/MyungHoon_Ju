@@ -1,3 +1,3 @@
-Start!  
-[data](./docs)  
+Start!
+[data](./docs)
 [web dev](./web)
