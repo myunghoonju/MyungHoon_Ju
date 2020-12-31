@@ -1,5 +1,8 @@
 title: MYUNGHOON JU
 description: "Live today. Not yesterday. Not tomorrow. Just today."
+social:
+  type: linkedin
+  links: https://www.linkedin.com/in/myunghoonju/
 plugins:
   - jekyll-feed
   - jemoji
