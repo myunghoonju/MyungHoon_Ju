@@ -13,4 +13,6 @@ e.g.., A가 인서트를 수행하는 경우 B가 조회를 하면 질의 결과
 하지만 NON-REPEATABLE READ부정합 문제가 존재한다.(다른 시점에 TRANSACTION이 일어나는 경우 동일 질의문을 반복적으로 실행하면 결과가 상이할 수 있음)  
 
 * REPEATABLE READ  
-MySQL innoDB스트리지 엔진 default격리수준.
+MySQL innoDB스트리지 엔진 default격리수준.  
+  
+< [Back](./README.md)
