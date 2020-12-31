@@ -1,3 +1,3 @@
 Start!  
-[data](./docs)  
-[web_dev](./web)
+[data](./docs/db)  
+[web_dev](./web/web_dev)
