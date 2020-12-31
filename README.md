@@ -1,2 +1,2 @@
-# Welcome!.
+# Welcome!
 <u>Whatever works</u>
