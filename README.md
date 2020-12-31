@@ -1,3 +1,2 @@
-# Welcome!
-- [database](./docs)
-- [web dev](./web)
+[database](./docs)  
+[web dev](./web)
