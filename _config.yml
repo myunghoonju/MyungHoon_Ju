@@ -3,4 +3,4 @@ description: "Live today. Not yesterday. Not tomorrow. Just today."
 plugins:
   - jekyll-feed
   - jemoji
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-minimal
