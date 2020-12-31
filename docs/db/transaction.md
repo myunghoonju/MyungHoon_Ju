@@ -14,6 +14,3 @@ e.g.., A가 인서트를 수행하는 경우 B가 조회를 하면 질의 결과
 
 * REPEATABLE READ  
 MySQL innoDB스트리지 엔진 default격리수준.
-  
-Next  
-[query execution](./execution.md)
