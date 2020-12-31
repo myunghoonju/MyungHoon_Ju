@@ -1,8 +1,18 @@
 title: MYUNGHOON JU
 description: "Live today. Not yesterday. Not tomorrow. Just today."
-social:
-  type: linkedin
-  links: https://www.linkedin.com/in/myunghoonju/
+author:
+  name             : "Your Name"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am an **amazing** person."
+  location         : "Somewhere"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "myunghoonju@gmail.com"
+    - label: "LinkedIn"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/myunghoonju/"
 plugins:
   - jekyll-feed
   - jemoji
