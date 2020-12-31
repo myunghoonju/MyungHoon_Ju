@@ -1,2 +1,2 @@
 # Welcome!
-[database](./db)
+[database](./docs)
