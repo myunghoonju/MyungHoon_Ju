@@ -1,3 +1,6 @@
 title: "Note."
 description: "Live today. Not yesterday. Not tomorrow. Just today."
+plugins:
+  - jekyll-feed
+  - jemoji
 theme: jekyll-theme-leap-day
