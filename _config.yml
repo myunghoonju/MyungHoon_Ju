@@ -3,9 +3,5 @@ description: "Live today. Not yesterday. Not tomorrow. Just today."
 plugins:
   - jekyll-feed
   - jemoji
-teaser: "us.jpg"
 logo: "us.jpg"
-author:
-  name             : "JU MYUNGHOON"
-  avatar           : "us.jpg"
 theme: jekyll-theme-minimal
