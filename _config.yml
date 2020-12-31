@@ -4,6 +4,7 @@ plugins:
   - jekyll-feed
   - jemoji
 teaser: "us.jpg"
+logo: "us.jpg"
 author:
   name             : "JU MYUNGHOON"
   avatar           : "us.jpg"
