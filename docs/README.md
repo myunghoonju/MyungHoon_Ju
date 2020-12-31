@@ -1,4 +1,4 @@
 ### Contents  
-[data](./db)  
-[web_dev](./web_dev)
+:sparkles: [data](./db)  
+:sparkles: [web_dev](./web_dev)
 
