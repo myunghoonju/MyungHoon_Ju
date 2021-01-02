@@ -1,4 +1,4 @@
 ### Posts. :rocket: 
  
-:sparkles: [All about data!](./docs/db)  
-:sparkles: [All about web!](./docs/web_dev)
+:sparkles: [about transaction](./docs/db/transaction.md)  
+:sparkles: [aobut execution](./docs/db/execution.md)  
