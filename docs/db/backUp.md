@@ -6,8 +6,8 @@
 4. Create Dump in ... , Include Create Schema 또한 선택한다.  
 (2, 4번을 통하여 결국 백업하고자 하는 db의 모든 내용을 추출하게 된다.)  
   
-:open_file_folder:[이미지 Click](https://github.com/myunghoonju/myugnhoonju.github.io/blob/master/docs/files/backUp01.PNG)
-
+:open_file_folder:[이미지 Click](https://github.com/myunghoonju/myugnhoonju.github.io/blob/master/docs/files/backUp01.PNG)  
+:open_file_folder:[추출파일 Click](https://github.com/myunghoonju/myugnhoonju.github.io/blob/master/docs/files/cityData.sql)
   
   
   
