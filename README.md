@@ -1,4 +1,4 @@
 ### Posts. :rocket: 
  
 :sparkles: [about transaction](./docs/db/transaction.md)  
-:sparkles: [객체지향 설계에 관하여](./docs/Object/객체지향설계.md)
+:sparkles: [객체지향 설계에 관하여](./docs/bject/객체지향설계.md)
