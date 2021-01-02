@@ -6,7 +6,7 @@
 4. Create Dump in ... , Include Create Schema 또한 선택한다.  
 (2, 4번을 통하여 결국 백업하고자 하는 db의 모든 내용을 추출하게 된다.)  
   
-![백업db 추출](https://github.com/myunghoonju/myugnhoonju.github.io/blob/master/docs/files/backUp01.PNG)
+![백업db 추출](https://git.io/JL5Wv)
 
   
   
