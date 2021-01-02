@@ -15,7 +15,7 @@ author:
 plugins:
   - jekyll-feed
   - jemoji
-logo: "us.jpg"
+logo: "images.jpg"
 theme: jekyll-theme-minimal
 
 defaults:
