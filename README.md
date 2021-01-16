@@ -10,4 +10,5 @@
 ### Diary :rocket: 
 :sparkles: [1월 10일](./docs/diary/20210110.md)  
 :sparkles: [1월 11일](./docs/diary/20210111.md)    
-:sparkles: [1월 14일](./docs/diary/20210114.md)    
+:sparkles: [1월 14일](./docs/diary/20210114.md)   
+:sparkles: [1월 16일](./docs/diary/20210116.md)   
