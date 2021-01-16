@@ -8,6 +8,7 @@
   
 ### Reviews :rocket: 
 :sparkles: [effective java](./docs/review/effectiveJava.md)  
+:sparkles: [real mysql](./docs/review/real_mysql.md)  
   
 ### Diary :rocket: 
 :sparkles: [1월 10일](./docs/diary/20210110.md)  
