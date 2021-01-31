@@ -4,12 +4,7 @@
 :sparkles: [객체지향 설계에 관하여](./docs/object/객체지향설계.md)  
 :sparkles: [Mysql 워크벤치를 사용하여 db를 백업/복원](./docs/db/backUp.md)  
 :sparkles: [DBMS에서의 인덱스](./docs/db/SQL인덱스.md)  
-
-  
-### Reviews :rocket: 
-:sparkles: [effective java](./docs/review/effectiveJava.md)  
-:sparkles: [real mysql](./docs/review/real_mysql.md)   
-:sparkles: [cleanCode](./docs/review/cleanCode.md)  
+:sparkles: [알고리즘 표기](./docs/lang/evaluteAlgorithm.md)  
 :sparkles: [java lang & util](./docs/lang/package.md)  
   
 ### Diary :rocket: 
