@@ -6,3 +6,4 @@
 :sparkles: [DBMS에서의 인덱스](./docs/db/SQL인덱스.md)  
 :sparkles: [알고리즘 표기](./docs/lang/evaluateAlgorithm.md)  
 :sparkles: [java lang & util](./docs/lang/package.md)  
+:sparkles: [Log4j에 관하여](./docs/lang/log4j.md)  
