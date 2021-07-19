@@ -1,4 +1,4 @@
-### Today I Learned(maybe... Googled) :rocket: 
+### Today I Learned :rocket: 
  
 :sparkles: [About transaction](./docs/db/transaction.md)  
 :sparkles: [객체지향 설계에 관하여](./docs/object/객체지향설계.md)  
@@ -7,3 +7,4 @@
 :sparkles: [알고리즘 표기](./docs/lang/evaluateAlgorithm.md)  
 :sparkles: [java lang & util](./docs/lang/package.md)  
 :sparkles: [Log4j에 관하여](./docs/lang/log4j.md)  
+:sparkles: [First class collection에 관하여](./docs/thoughtWorksAnthology/firstCalssCollection.md)
