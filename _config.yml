@@ -15,7 +15,7 @@ author:
 plugins:
   - jekyll-feed
   - jemoji
-logo: "images.jpg"
+logo: "storm_on_the_black_sea.jfif"
 theme: jekyll-theme-minimal
 
 defaults:
