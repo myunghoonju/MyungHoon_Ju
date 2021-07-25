@@ -9,4 +9,3 @@ SPA는 최초 페이지를 로드한 뒤, JAVASCRIPT를 이용하여 각각의 �
 아래의 저장소를 참고해요.  
 https://github.com/vuejs/vue-router-next  
 
-[< Back](https://git.io/JL704)  
