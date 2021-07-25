@@ -1,4 +1,5 @@
-### Post :rocket: 
+## Diary :point_right: [Go](./docs/thoughts/list.md)    
+## Post
  
 :sparkles: [About transaction](./docs/db/transaction.md)  
 :sparkles: [객체지향 설계에 관하여](./docs/object/객체지향설계.md)  
@@ -8,4 +9,4 @@
 :sparkles: [java lang & util](./docs/lang/package.md)  
 :sparkles: [Log4j에 관하여](./docs/lang/log4j.md)  
 :sparkles: [First class collection에 관하여](./docs/thoughtWorksAnthology/firstCalssCollection.md)  
-:sparkles: [Client-side framework](./docs/vue/routing.md)
+:sparkles: [Client-side framework](./docs/vue/routing.md)  
