@@ -8,4 +8,3 @@
   - Appenderr: 로깅정보를 어떤 형태로 남기는지 설정하는데 사용됩니다. (File, database, console etc..,)  
   - Layout: 로그를 남기는 형태/포맷을 정하는데 사용됩니다.
   
- [< Back](https://git.io/JL704)
