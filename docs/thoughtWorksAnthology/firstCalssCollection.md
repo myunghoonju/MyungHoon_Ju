@@ -10,4 +10,3 @@
         - 이름이 있는 컬렉션  
       
 - 각각에 대한 예시는 https://jojoldu.tistory.com/412 를 참고하도록 해요!  
-[< Back](https://git.io/JL704)  
