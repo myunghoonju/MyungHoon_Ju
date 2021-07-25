@@ -23,4 +23,3 @@
       * INSERT/UPDATE/DELETE가 얼마나 자주 일어나는지를 고려해야 한다.  
       * 사용하지 않는 인덱스는 제거하자.(공간확보 및 INSERT에서 발생하는 부하감소)  
     
- [< Back](https://git.io/JL704)
