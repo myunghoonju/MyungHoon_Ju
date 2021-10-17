@@ -1,4 +1,4 @@
-:sparkles: [memoir](./docs/thoughts/list.md)  
+:sparkles: https://myunghoonju.github.io/myugnhoonju.github.io/
 
 :sparkles: [About transaction](./docs/db/transaction.md)  
 :sparkles: [객체지향 설계에 관하여](./docs/object/객체지향설계.md)  
