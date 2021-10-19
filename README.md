@@ -7,6 +7,3 @@
 :sparkles: [Log4j에 관하여](./docs/lang/log4j.md)  
 :sparkles: [First class collection에 관하여](./docs/thoughtWorksAnthology/firstCalssCollection.md)  
 :sparkles: [Client-side framework](./docs/vue/routing.md)  
-
-
-(https://myunghoonju.github.io/blog/)
