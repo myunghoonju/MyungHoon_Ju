@@ -1,4 +1,4 @@
-## TRANSANCTION
+## TRANSANCTION  
 * READ UNCOMMITTED  
 This is also called a dirty read.  
 An operation retrieves unreliable data which is updated by transaction that is not committed.
