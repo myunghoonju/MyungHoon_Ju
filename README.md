@@ -9,4 +9,4 @@
 :sparkles: [Client-side framework](./docs/vue/routing.md)  
 
 
-(https://myunghoonju.github.io/myugnhoonju.github.io/)
+(https://myunghoonju.github.io/blog/)
