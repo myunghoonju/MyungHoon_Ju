@@ -1,5 +1,5 @@
 ### Welcome  
-Love knowledge and Programming.
+...
 
 ### News  
 - ...  
