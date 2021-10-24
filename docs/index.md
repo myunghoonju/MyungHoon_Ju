@@ -5,7 +5,7 @@
 - ...  
 
 ### Posts  
-- [About transaction](/db/transaction.md)  
+- [About transaction](../db/transaction.md)  
 - [객체지향 설계에 관하여](/docs/object/객체지향설계.md)  
 - [Mysql 워크벤치를 사용하여 db를 백업/복원](/docs/db/backUp.md)  
 - [DBMS에서의 인덱스](/docs/db/SQL인덱스.md)  
