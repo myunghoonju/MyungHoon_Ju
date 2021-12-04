@@ -14,6 +14,7 @@
 - [Log4j에 관하여](/lang/log4j.md)  
 - [First class collection에 관하여](/thoughtWorksAnthology/firstCalssCollection.md)  
 - [Client-side framework](/vue/routing.md)  
+- [main함수는 왜 항상 public일까?](/lang/main_function.md)  
 
 ### Interests  
 - ...
