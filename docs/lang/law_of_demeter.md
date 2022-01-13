@@ -1,0 +1,4 @@
+- Method M of an object O can invoke the method of O itself  
+- Method M can call methods of any parameter p    
+- Method M can call objects created within M  
+- Method M in object O can invoke methods of any type of object that is a direct component of O
