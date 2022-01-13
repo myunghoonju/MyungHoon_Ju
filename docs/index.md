@@ -1,5 +1,5 @@
 ### Welcome  
-- ...
+- Undergoing blog renewal.
 
 ### News  
 - ...  
