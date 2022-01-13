@@ -15,6 +15,7 @@
 - [First class collection에 관하여](/thoughtWorksAnthology/firstCalssCollection.md)  
 - [Client-side framework](/vue/routing.md)  
 - [main함수는 왜 항상 public일까?](/lang/main_function.md)  
+- [Law of demeter](/object/law_of_demeter.md)  
 
 ### Interests  
 - ...
