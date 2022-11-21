@@ -31,3 +31,4 @@ defaults:
       share: false
       related: true
       img: true
+footer:
