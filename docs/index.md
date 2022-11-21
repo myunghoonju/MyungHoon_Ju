@@ -1,5 +1,6 @@
 ### News  
-- [I have ACL injury(2022.06.17)](https://en.wikipedia.org/wiki/Anterior_cruciate_ligament_injury)
+- [I have ACL injury(2022.06.17)](https://en.wikipedia.org/wiki/Anterior_cruciate_ligament_injury)  
+    - [Rehabilitation note](https://docs.google.com/document/d/1TR7XZw0wRNqMmsUnf-f2GO2urjwLKBanJM9dJQePw58/edit?usp=sharing)
 
 ### Posts  
 - [About transaction](/db/transaction.md)  
