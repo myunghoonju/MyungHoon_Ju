@@ -1,8 +1,5 @@
-### Welcome  
-- Undergoing blog renewal.
-
 ### News  
-- ...  
+- ACL injury(2022.06.17)  
 
 ### Posts  
 - [About transaction](/db/transaction.md)  
