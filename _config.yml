@@ -31,4 +31,5 @@ defaults:
       share: false
       related: true
       img: true
-footer:
+include:
+  - _includes
