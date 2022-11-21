@@ -28,8 +28,8 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: false
+      share: true
       related: true
       img: true
 include:
-  - _includes
+  - _pages
