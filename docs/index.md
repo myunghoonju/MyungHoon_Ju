@@ -4,7 +4,7 @@
     - [Rehabilitation note](https://docs.google.com/document/d/1TR7XZw0wRNqMmsUnf-f2GO2urjwLKBanJM9dJQePw58/edit?usp=sharing)  
 
 ### Posts  
-- [About transaction](/db/transaction.md)  
+- [db transaction](/db/transaction.md)  
 - [객체지향 설계에 관하여](/object/객체지향설계.md)  
 - [Mysql 워크벤치를 사용하여 db를 백업/복원](/db/backUp.md)  
 - [DBMS에서의 인덱스](/db/SQL인덱스.md)  
@@ -17,4 +17,4 @@
 - [Law of demeter](/lang/law_of_demeter.md)  
 
 ### Interests  
-- [About aws](/aws/index.md)  
+- [aws](/aws/index.md)  
