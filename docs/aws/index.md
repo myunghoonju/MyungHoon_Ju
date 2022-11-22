@@ -1,2 +1,2 @@
 ### Posts  
-- [About IAM](/iam.md)
+- [IAM](/iam.md)
