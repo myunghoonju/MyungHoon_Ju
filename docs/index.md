@@ -18,3 +18,4 @@
 
 ### Interests  
 - [aws](/aws/index.md)  
+- [linux](/linux/index.md) 
