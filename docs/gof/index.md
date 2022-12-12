@@ -1,1 +1,3 @@
-- [structural](/structural/index.md) 
+- [structural](/structural/index.md)  
+- [creational](/creational/index.md)  
+- [behavioural](/behavioural/index.md)  
