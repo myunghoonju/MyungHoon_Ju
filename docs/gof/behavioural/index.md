@@ -1,1 +1,1 @@
-[chain of responsibility.md](/chain_of_responsibility.md.md)
+[chain of responsibility.md](/chain_of_responsibility.md)
