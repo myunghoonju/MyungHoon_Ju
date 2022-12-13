@@ -3,4 +3,6 @@
  one object a chance to handle the request.  
    
  - chain the receiving objects and pass the request along the chain  
- until an object handles it.
+ until an object handles it.  
+
+ e.g. spring security filter chain.
