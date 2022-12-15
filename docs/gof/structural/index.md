@@ -1,1 +1,3 @@
 - [facade](/facade.md)  
+- [flyweight](/flyweight.md)  
+- [proxy](/proxy.md) 
