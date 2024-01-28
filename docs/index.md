@@ -7,6 +7,7 @@
 ### Posts  
 - [transaction](/db/transaction.md)  
 - [객체지향 설계](/object/객체지향설계.md)  
+- [불변객체](/object/불변객체.md)  
 - [Mysql 워크벤치를 사용하여 db를 백업/복원](/db/backUp.md)  
 - [DBMS에서의 인덱스](/db/SQL인덱스.md)  
 - [알고리즘 표기](/lang/evaluateAlgorithm.md)  
