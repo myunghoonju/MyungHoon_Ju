@@ -5,7 +5,7 @@
     - [Rehabilitation note_2023](https://docs.google.com/document/d/1GDOack_Uf0pv5ZoWO0emTzveGV7XfXYMiMN1nPnGByU/edit?usp=sharing)  
 
 ### Post 
-- [immmutable object](/post/immmutable.md)
+- [immutable object](/post/immutable.md)
 
 ### Deprecated
 - [old](/old/index.md)
