@@ -18,3 +18,31 @@
 > 
 >>    Cash price = new Cash(29, 95);
 
+>   - 객체를 수정하는 경우 새로운 객체를 반환해보자  
+>>  class Cash { // 가변객체  
+>>     private int dollars;  
+>>     public void multiply(int factor) {  
+>>         this.dollars *= factor;  
+>>      }  
+>>  }
+> 
+>>  class Cash { // 불변객체    
+>>    private int dollars;  
+>>    public void multiply(int factor) {  
+>>      return new Cash(this.dollars * factor);  
+>>    }  
+>>  }
+
+>  - 불변객체를 이용하여 더욱 명확하게 나타낼 수 있다
+>  - 아래 세가지 경우에서 가장 이해하기 수월할 것 같은 것은?
+>> Cash five = new Cash(5);   
+>> five.mul(10);  
+>> System.err.print(five); // 50  
+>
+>> Cash five = new Cash(5);    
+>> Cash ten = five.mul(2);  
+>> System.err.print(ten); // 10  
+>
+>> Cash money = new Cash(5);    
+>> money.mul(2);  
+>> System.err.print(money); // 10  
