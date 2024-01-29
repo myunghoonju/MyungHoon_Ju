@@ -38,11 +38,11 @@
 >> Cash five = new Cash(5);   
 >> five.mul(10);  
 >> System.err.print(five); // 50  
->
+>>  
 >> Cash five = new Cash(5);    
 >> Cash ten = five.mul(2);  
 >> System.err.print(ten); // 10  
->
+>>  
 >> Cash money = new Cash(5);    
 >> money.mul(2);  
 >> System.err.print(money); // 10  
