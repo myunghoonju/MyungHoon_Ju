@@ -20,17 +20,17 @@
 
 >   - 객체를 수정하는 경우 새로운 객체를 반환해보자  
 >>  class Cash { // 가변객체  
->>     private int dollars;  
->>     public void multiply(int factor) {  
->>         this.dollars *= factor;  
->>      }  
+&emsp;     private int dollars;  
+&emsp;     public void multiply(int factor) {  
+&emsp;&emsp;  this.dollars *= factor;  
+&emsp;      }  
 >>  }
 > 
 >>  class Cash { // 불변객체    
->>    private int dollars;  
->>    public void multiply(int factor) {  
->>      return new Cash(this.dollars * factor);  
->>    }  
+>>&emsp;    private int dollars;  
+>>&emsp;    public void multiply(int factor) {  
+>>&emsp;&emsp;  return new Cash(this.dollars * factor);  
+>>&emsp;    }  
 >>  }
 
 >  - 불변객체를 이용하여 더욱 명확하게 나타낼 수 있다
