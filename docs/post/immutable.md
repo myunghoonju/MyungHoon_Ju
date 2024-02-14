@@ -2,7 +2,7 @@
 - immutable 객체는 mutable 객체보다 간결하고 짧게 작성이 가능하다.
 - mutable 객체들은 보통 절차지향 프로그래밍 방식에서 자주 보이게 된다.  
 
->    - mutable 객체는 일시적으로 결합도가 높은 코드를 작성하게 한다.  
+>    - mutable 객체는 일시적으로 결합도가 높은 코드를 작성하게 한다.(temporal coupling)  
 >    - 아래의 코드는 의도한 값을 출력하기 위해서 코드 작성의 순서가 중요해진다. (bad)
 > 
 >>    Cash price = new Cash();  
@@ -28,7 +28,7 @@
 > 
 >>  class Cash { // 불변객체    
 >>&emsp;    private int dollars;  
->>&emsp;    public void multiply(int factor) {  
+>>&emsp;    public Cash multiply(int factor) {  
 >>&emsp;&emsp;  return new Cash(this.dollars * factor);  
 >>&emsp;    }  
 >>  }
@@ -45,4 +45,57 @@
 >>  
 >> Cash money = new Cash(5);    
 >> money.mul(2);  
->> System.err.print(money); // 10  
+>> System.err.print(money); // 10   
+
+> - mutability of identity  
+> - 정체성의 가변성은 유지보수성 및 가독성을 떨어트린다
+>> Map<Cash, String> map = new HashMap<>();  
+>> Cash five = new Cash("$5");  
+>> Cash ten = new Cash("$10");  
+>>   
+>> map.put(five, "five");  
+>> map.put(ten, "ten");
+>>
+>> five.mul(2); // ?!?!?  
+>> map.get(five) // "ten" or "five"  
+>
+> - failure atomicity
+> - 실패 원자적으로(failure atomic) 만들면 호출된 함수가 실패하여도   
+>   해당 객체는 호출 전 상태가 유지되어 오류를 복구 할 수도 있다  
+>> case 1)  mutable
+>>  class Cash {    
+&emsp;     private int dollars;  
+&emsp;     private int cents;  
+&emsp;     public void multiply(int factor) {  
+&emsp;&emsp;  this.dollars *= factor;  // modified already  
+&emsp;&emsp;  if (error) {   
+&emsp;&emsp;&emsp; throw new RuntimeException("hooray!");
+&emsp;&emsp;  }  
+&emsp;&emsp;  this.cents *= factor;  // unreached    
+&emsp;      }  
+>>
+>> case 2)  mutable  
+>> class Cash {    
+&emsp;     private int dollars;  
+&emsp;     private int cents;  
+&emsp;     public void multiply(int factor) {  
+&emsp;&emsp;  int before = this.dollars;  
+&emsp;&emsp;  this.dollars *= factor;  // modified already  
+&emsp;&emsp;  if (error) {  
+&emsp;&emsp;&emsp; this.dollars = before;    
+&emsp;&emsp;&emsp; throw new RuntimeException("hooray!");  
+&emsp;&emsp;  }  
+&emsp;&emsp;  this.cents *= factor;  // undone  
+&emsp;      }  
+}  
+>>
+>> case 3)  immutable  
+>>  class Cash {    
+&emsp;     private int dollars;  
+&emsp;     private int cents;  
+&emsp;     public void multiply(int factor) {  
+&emsp;&emsp;  if (error) {   
+&emsp;&emsp;&emsp; throw new RuntimeException("hooray!");  
+&emsp;&emsp;  }  
+&emsp;&emsp;  return new Cash(this.dollars * factor, this.cents * factor);   
+&emsp;      }  
