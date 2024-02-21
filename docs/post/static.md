@@ -50,25 +50,23 @@
 >
 > <br> 
 >
-> c) 가독성 & 응집력은 어떤 것이 더 좋을까?  
->> List<Integer> evens = new ArrayList<>();   
+> c) 가독성 & 응집력은 어떤 것이 더 좋을까?
+>> List<Integer> evens = new ArrayList<>();  
 >> for (int num : numbers) {  
->> &emsp; if (num % 2 == 0) {  
->> &emsp; &emsp; evens.add(num);    
->>  &emsp; }  
->> }  
->>
->> <br> 
->
+>> &emsp;if (num % 2 == 0) {  
+>> &emsp; evens.add(num);   
+>> &emsp;}  
+>>}  
+
 >> List<Integer> evens = new Filtered(...)  
 
->> List<Integer> evens = new Filtered (  
+>> List<Integer> evens = new Filtered (    
 >> &emsp; numbers,  
->> &emsp; new Predicate<Integer>() {  
->> &emsp; &emsp; @Override  
->> &emsp; &emsp; public boolean suitable(Integer number) {        
->> &emsp; &emsp; &emsp; return number % 2 == 0;  
->> &emsp; &emsp; }  
+>> &emsp; new Predicate<Integer>() {    
+>> &emsp;&emsp; @Override  
+>> &emsp;&emsp; public boolean suitable(Integer number) {        
+>> &emsp;&emsp; &emsp; return number % 2 == 0;    
+>> &emsp;&emsp; }  
 >> &emsp; }  
 >> );  
 
