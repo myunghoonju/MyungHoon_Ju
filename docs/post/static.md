@@ -51,8 +51,7 @@
 > <br> 
 >
 > c) 가독성 & 응집력은 어떤 것이 더 좋을까?  
->> List<Integer> evens = new ArrayList<>();  
->> 머릿속으로 반복문 과정을 상상하게 된다  
+>> List<Integer> evens = new ArrayList<>();   
 >> for (int num : numbers) {  
 >> &emsp; if (num % 2 == 0) {  
 >> &emsp; &emsp; evens.add(num);    
@@ -60,8 +59,9 @@
 >> }  
 >>
 >> <br> 
->>
->> List<Integer> evens = new Filtered(...) 는 다음과 같다    
+>
+>> List<Integer> evens = new Filtered(...)  
+> 
 >> List<Integer> evens = new Filtered (  
 >> &emsp; numbers,  
 >> &emsp; new Predicate<Integer>() {  
