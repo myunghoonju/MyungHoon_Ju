@@ -7,6 +7,7 @@
 ### Post 
 - [immutable object](/post/immutable.md)  
 - [naming](/post/name.md)
+- [static](/post/static.md)
 - [micro service](/post/micro-service.md)
 
 ### Deprecated
