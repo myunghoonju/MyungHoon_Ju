@@ -61,7 +61,7 @@
 >> <br> 
 >
 >> List<Integer> evens = new Filtered(...)  
-> 
+
 >> List<Integer> evens = new Filtered (  
 >> &emsp; numbers,  
 >> &emsp; new Predicate<Integer>() {  
