@@ -71,3 +71,14 @@
 >> );  
 
 #### 2. utility and singleton  
+> utility(helper)  
+> - 클래스가 아닌 static 함수의 집합체이다(객체를 생성하지 않는다)  
+>> class Math {  
+>> &emsp; private Math() {}  
+>> &emsp; public static int max(int a, int b) {  
+>> &emsp; &emsp; if (a < b) {  
+>> &emsp; &emsp; &emsp; return b;  
+>> &emsp; &emsp; }  
+>> &emsp; &emsp; return a;  
+>> &emsp; }  
+>> }
