@@ -71,7 +71,7 @@
 >> );  
 
 #### 2. utility and singleton  
-> utility(helper)  
+> Utility(helper)  
 > - 클래스가 아닌 static 함수의 집합체이다(객체를 생성하지 않는다)  
 >> class Math {  
 >> &emsp; private Math() {}  
@@ -81,4 +81,29 @@
 >> &emsp; &emsp; }  
 >> &emsp; &emsp; return a;  
 >> &emsp; }  
->> }
+>> }    
+  
+> Singleton pattern  
+>> class Math {  
+>> &emsp; private static Math INSTANCE = new Math();     
+>> &emsp; private Math() {}  
+>> &emsp; public static Math getInstance() {  
+>> &emsp; &emsp; return Math.INSTANCE;    
+>> &emsp; }  
+>> &emsp; public static void setInstance(Math other) {  
+>> &emsp; &emsp; INSTANCE = other;    
+>> &emsp; }    
+>> &emsp; public int max(int a, int b) {  
+>> &emsp; &emsp; if (a < b) {  
+>> &emsp; &emsp; &emsp; return b;  
+>> &emsp; &emsp; }  
+>> &emsp; &emsp; return a;  
+>> &emsp; }  
+>> }  
+
+> 다음은 어떤점이 다른가?  
+>> Math.max(1, 2); //Utility  
+>> Math.getInstance.max(1, 2); //Singleton
+>    
+> 둘의 차이점은 setInstance() 사용하여 캡슐화된 객체를 교체가능한 것 외에 다를 것이 없다  
+> 둘의 공통점은 global scope 로서 존재한다    
