@@ -5,7 +5,8 @@
     - [Rehabilitation note_2023](https://docs.google.com/document/d/1GDOack_Uf0pv5ZoWO0emTzveGV7XfXYMiMN1nPnGByU/edit?usp=sharing)  
 
 ### Post 
-- [immutable object](/post/immutable.md)  
+- [immutable object I: concept](/post/immutable.md)  
+- [immutable object II: state and data](/post/stateAndData.md)  
 - [naming](/post/name.md)
 - [static](/post/static.md)
 - [micro service](/post/micro-service.md)
