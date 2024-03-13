@@ -49,15 +49,12 @@ Q. 다음은 불변객체일까 가변객체일까?
 >@Test  
 >@DisplayName("Collections.unmodifiableList 변경 테스트")  
 >&emsp; void collections_unmodifiable_() {  
->&emsp; List<String> results = new ArrayList<>(); //  
+>&emsp; List<String> results = new ArrayList<>();  
 >&emsp; results.add("a");  
 >&emsp; results.add("b");  
->&emsp; results.add("c");  
->&emsp; results.add("d");  
 >&emsp; List<String> unmodifiableResults = Collections.unmodifiableList(results);  
 >&emsp; results.add("e");  
 >&emsp; results.add("f");  
->&emsp; results.add("g");  
->&emsp; assertThat(unmodifiableResults).hasSize(7).contains("e", "f","g");  
+>&emsp; assertThat(unmodifiableResults).hasSize(4).contains("e", "f", "g");  
 >&emsp; }  
 >}
