@@ -57,6 +57,5 @@ Q. 다음은 불변객체일까 가변객체일까?
 &emsp; results.add("e");    
 &emsp; results.add("f");    
 &emsp; assertThat(unmodifiableResults).hasSize(4).contains("e", "f", "g");    
-&emsp; }    
-}  
-----
+&emsp; }  
+}
