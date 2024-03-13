@@ -46,6 +46,7 @@ Q. 다음은 불변객체일까 가변객체일까?
   - 다음은 이러한 혼동에 의한 살짝 엉뚱한?! 테스트이다
   - results와 unmodifiableResults는 다른 정체성을 가진 객체이며 비교할 이유가 애초에 없다  
   - 덪붙여 add()를 통해서 입력받는 것은 상태가 아닌 데이터이다.  
+
 >> @Test  
 >> @DisplayName("Collections.unmodifiableList 변경 테스트")  
 >> &emsp; void collections_unmodifiable_() {  
