@@ -10,6 +10,7 @@
 - [naming](/post/name.md)
 - [static](/post/static.md)
 - [micro service](/post/micro-service.md)
+- [getters-setters](/post/getters-setters.md)
 
 ### Deprecated
 - [old](/old/index.md)
