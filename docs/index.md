@@ -11,7 +11,7 @@
 - [static](/post/static.md)
 - [micro service](/post/micro-service.md)
 - [getters-setters](/post/getters-setters.md)
-- [[Review]How Netflix Really Uses Java](/post/review of How Netflix Really Uses Java.md)
+- [[Review]Java at Netflix](/post/javaAtNetflix.md)
 
 ### Deprecated
 - [old](/old/index.md)
