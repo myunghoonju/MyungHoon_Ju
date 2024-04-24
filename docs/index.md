@@ -7,7 +7,8 @@
 ### Post 
 - [immutable object I: concept](/post/immutable.md)  
 - [immutable object II: state and data](/post/stateAndData.md)  
-- [naming](/post/name.md)
+- [naming I](/post/name.md)
+- [naming II](/post/compound-name.md)
 - [static](/post/static.md)
 - [micro service](/post/micro-service.md)
 - [getters-setters](/post/getters-setters.md)
