@@ -14,6 +14,7 @@
 - [getters-setters](/post/getters-setters.md)
 - [[Review]Java at Netflix](/post/javaAtNetflix.md)
 - [where to use new keyword in java](/post/dependency-injection.md)
+- [java runtime data area](/post/runtime-data-area.md)
 
 ### Deprecated
 - [old](/old/index.md)
