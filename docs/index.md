@@ -15,6 +15,7 @@
 - [[Review]Java at Netflix](/post/javaAtNetflix.md)
 - [where to use new keyword in java](/post/dependency-injection.md)
 - [java runtime data area](/post/runtime-data-area.md)
+- [fail-safe, fail-fast](/post/fail-safe-fail-fast.md)
 
 ### Deprecated
 - [old](/old/index.md)
