@@ -56,7 +56,8 @@ B: 그렇구만!
 > 객체 지향 프로그래밍에서의 섬세함을 의미한다
 
 > 데코레이터 패턴을 이용하여 핵심로직을 간결하게 유지할 수 있다  
-> 필요에 따라 핵심로직을 흩뜨리지 않고 검증을 할 수있다
+> 필요에 따라 핵심로직을 흩뜨리지 않고 검증을 할 수있다 
+
 ```java
 Day day = new StrictDay(new JdkDay(new Date()));
 int days = day.distanceTo(end);
