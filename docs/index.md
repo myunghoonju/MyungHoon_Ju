@@ -17,7 +17,8 @@
 - [java runtime data area](/post/runtime-data-area.md)
 - [fail-safe, fail-fast](/post/fail-safe-fail-fast.md)
 - [Layers](/post/get-your-hands-dirty/ch02.md)  
-- [Shortcuts](/post/get-your-hands-dirty/ch11.md)  
+- [Shortcuts](/post/get-your-hands-dirty/ch11.md)
+- [Organizing Code](/post/get-your-hands-dirty/ch04.md)  
 - [daemon thread](/post/daemon-thread.md)
 
 ### Deprecated
