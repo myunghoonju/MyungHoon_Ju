@@ -21,5 +21,8 @@
 - [Organizing Code](/post/get-your-hands-dirty/ch04.md)  
 - [daemon thread](/post/daemon-thread.md)
 
+### Book
+- [MongoDB the definitive guide](/post/mongo/index.md)
+
 ### Deprecated
 - [old](/old/index.md)
