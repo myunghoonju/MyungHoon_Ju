@@ -22,7 +22,7 @@
 - [Shortcuts](/post/get-your-hands-dirty/ch11.md)
 - [Organizing Code](/post/get-your-hands-dirty/ch04.md)  
 - [daemon thread](/post/daemon-thread.md)
-- [[Review 2025] Spring 7 & Java at Netflix& About Java](/post/spring-netflix-java-2025.md)
+- [[Review 2025] Spring 7 & Java at Netflix& About Java](/post/spring-netflix-java.md)
 
 ### Book
 - [MongoDB the definitive guide](/post/mongo/index.md)
