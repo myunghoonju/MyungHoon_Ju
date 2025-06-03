@@ -12,7 +12,7 @@
 - [static](/post/static.md)
 - [micro service](/post/micro-service.md)
 - [getters-setters](/post/getters-setters.md)
-- [[Review]Java at Netflix](/post/javaAtNetflix.md)
+- [[Review 2024]Java at Netflix](/post/javaAtNetflix.md)
 - [where to use new keyword in java](/post/dependency-injection.md)
 - [java runtime data area](/post/runtime-data-area.md)
 - [fail-safe, fail-fast](/post/fail-safe-fail-fast.md)
@@ -20,6 +20,7 @@
 - [Shortcuts](/post/get-your-hands-dirty/ch11.md)
 - [Organizing Code](/post/get-your-hands-dirty/ch04.md)  
 - [daemon thread](/post/daemon-thread.md)
+- [[Review 2025] Spring 7 & Java at Netflix& About Java](/post/springIO2025+javaNetflix+java.md.md)
 
 ### Book
 - [MongoDB the definitive guide](/post/mongo/index.md)
