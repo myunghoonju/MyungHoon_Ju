@@ -10,15 +10,15 @@
 > 2026-03-10
 ```text
 - running internal commands
-  /help
-  /clear
-  /exit
-  /model
-  /login & logout
-  /permissions
-  /status
-  /context
-  /doctor
-  /release-notes
+  help
+  clear
+  exit
+  model
+  login & logout
+  permissions
+  status
+  context
+  doctor
+  release-notes
 
 ```
