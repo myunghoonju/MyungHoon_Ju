@@ -6,8 +6,8 @@
 - native install via iterm on following command
     curl -fsSL https://claude.ai/install.sh | bash -s stable    
 ```
-
-> 2026-03-10
+  
+> 2026-03-10  
 ```text
 - running internal commands  
     /help
@@ -19,6 +19,6 @@
     /status
     /context
     /doctor
-    /release-notes
-           
+    /release-notes  
+    
 ```
