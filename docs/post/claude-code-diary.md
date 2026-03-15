@@ -20,3 +20,12 @@
   doctor
   release-notes  
 ```
+> 2026-03-15  
+```text
+- Trying out opensource contribution  
+   - where to contribute
+       - armeria
+   - what did i do
+      - search the easiest subject to contribute with claude code
+      - make a suggestion(https://github.com/line/armeria/pull/6665)  
+```
