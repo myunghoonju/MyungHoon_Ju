@@ -29,3 +29,9 @@
       - search the easiest subject to contribute with claude code
       - make a suggestion(https://github.com/line/armeria/pull/6665)  
 ```
+
+> 2026-03-17
+```text
+- create CLAUDE.md and a file named with @{file name}.md 
+- with @ symbol claude agent can read it when reading CLAUDE.md if the name found in it.
+```
