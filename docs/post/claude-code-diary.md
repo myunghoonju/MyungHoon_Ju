@@ -35,3 +35,13 @@
 - create CLAUDE.md and a file named with @{file name}.md 
 - with @ symbol claude agent can read it when reading CLAUDE.md if the name found in it.
 ```
+
+> 2026-03-19
+```text
+- CLAUDE.md contains project-specific guidelines, preferences, and instructions  
+- use /init to create CLADE.md file
+    - elaborate with it for a project guide
+- 2 scope  
+    - user(.claude/CLAUDE.md)
+    - project({proj}/CLAUDE.md)
+```
