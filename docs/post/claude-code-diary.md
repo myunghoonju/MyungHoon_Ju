@@ -48,11 +48,11 @@
 
 > 2026-03-22
 ```text
-- a good prompt should have
-    - rich context
-    - specific goals
+- a good prompt should have  
+    - rich context  
+    - specific goals  
     - expected results
- 
-- manage tokens
-    - korean spend it more than english like three times
+
+- manage tokens  
+    - korean spend it more than english like three times  
 ```
