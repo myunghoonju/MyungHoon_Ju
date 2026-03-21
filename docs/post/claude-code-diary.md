@@ -46,8 +46,7 @@
     - project({proj}/CLAUDE.md)
 ```
 
-
-> 2026-03-22  
+> 2026-03-22
 ```text
 - a good prompt should have
     - rich context
