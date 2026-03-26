@@ -46,13 +46,13 @@
     - project({proj}/CLAUDE.md)
 ```
 
-> 2026-03-22  
-```text
-- a good prompt should have  
+> 2026-03-22
+ ```text
+- a good prompt should have
   - rich context  
   - specific goals  
   - expected results
-    
+
 - manage tokens  
   - korean spend it more than english like three times
 ```
