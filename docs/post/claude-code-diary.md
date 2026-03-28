@@ -44,10 +44,7 @@
 - 2 scope  
     - user(.claude/CLAUDE.md)
     - project({proj}/CLAUDE.md)
-```
 
-> 2026-03-22
-```text 
 - a good prompt should have
   - rich context  
   - specific goals  
@@ -55,6 +52,7 @@
 
 - manage tokens  
   - korean spend it more than english like three times  
+
 ```
 
 > 2026-03-28
