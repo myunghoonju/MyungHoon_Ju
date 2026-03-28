@@ -44,18 +44,16 @@
 - 2 scope  
     - user(.claude/CLAUDE.md)
     - project({proj}/CLAUDE.md)
+```
 
-- a good prompt should have
-  - rich context  
-  - specific goals  
-  - expected results
-
-- manage tokens  
+> 2026-03-22
+```text
+tokens
   - korean spend it more than english like three times  
-
 ```
 
 > 2026-03-28
+
 ```text
 Claude code tools  
 
