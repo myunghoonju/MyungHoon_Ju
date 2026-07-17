@@ -47,12 +47,45 @@
 ```
 
 > 2026-03-22
-```text 
-- a good prompt should have
-  - rich context  
-  - specific goals  
-  - expected results
-
-- manage tokens  
+```text
+tokens
   - korean spend it more than english like three times  
+```
+
+> 2026-03-28
+
+```text
+Claude code tools  
+
+File Operations
+  - Read — read files
+  - Write — create/overwrite files
+  - Edit — make targeted edits to files
+  - Glob — find files by pattern
+  - Grep — search file contents
+
+  Execution
+  - Bash — run shell commands
+
+  Agents
+  - Agent — launch specialized subagents (general-purpose, Explore, Plan, etc.)
+
+  Task Management
+  - TaskCreate, TaskGet, TaskList, TaskOutput, TaskStop, TaskUpdate
+
+  Planning
+  - EnterPlanMode, ExitPlanMode
+  - EnterWorktree, ExitWorktree
+
+  Scheduling
+  - CronCreate, CronDelete, CronList
+
+  Web
+  - WebFetch, WebSearch
+
+  Other
+  - AskUserQuestion — ask the user a clarifying question
+  - Skill — invoke named skills (e.g. /commit, /update-config)
+  - ToolSearch — fetch schemas for deferred tools
+  - NotebookEdit — edit Jupyter notebooks
 ```
