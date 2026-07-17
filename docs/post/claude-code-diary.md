@@ -1,5 +1,12 @@
 #### Claude Code Diary
 
+#### Harness
+```text
+- [practice-01](https://github.com/myunghoonju/MyungHoon_Ju/tree/main/harness/practice-01)
+```
+
+---
+
 > 2026-03-06
 ```text
 - paid pro subscription  
