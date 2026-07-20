@@ -1,6 +1,6 @@
 ---
 name: commit-message
-description: "baed on staged diffs generate a team of 2 agents Conventional Commits formatted message. when user type 'commit it' this skill is activated"
+description: "based on staged diffs generate a team of 2 agents Conventional Commits formatted message. when user type 'commit it' this skill is activated"
 allowed-tools: Bash, Read, Write
 ---
 
