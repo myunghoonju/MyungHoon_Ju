@@ -1,6 +1,6 @@
 ---
 name: commit-msg-reviewer
-description: "read _workspace/commit-draft.md and report reason why PASS or REDO based on Conventional Commits' format, range, and corectness of diff its describe"
+description: "read _workspace/commit-draft.md and report reason why PASS or REDO based on Conventional Commits' format, range, and correctness of diff its describe"
 model: sonnet 5
 tools: Read, Bash, Write
 ---

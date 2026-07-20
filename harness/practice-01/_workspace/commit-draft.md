@@ -1,4 +1,4 @@
-feat(hello): add hello world html page
+fix(agents): correct typo in commit-msg-reviewer description
 
-Add a new static hello.html page with basic markup.
-No existing files were modified.
+Fixed "corectness" to "correctness" in the agent's description field.
+No behavioral change, description text only.
