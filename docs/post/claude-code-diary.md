@@ -1,9 +1,7 @@
 #### Claude Code Diary
 
 #### Harness
-```text
-- [practice-01](https://github.com/myunghoonju/MyungHoon_Ju/tree/main/harness/practice-01)
-```
+ - [practice-01](https://github.com/myunghoonju/MyungHoon_Ju/tree/main/harness/practice-01)
 
 ---
 
