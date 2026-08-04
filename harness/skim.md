@@ -16,6 +16,7 @@ chapter 6
     
     * idle notification(유휴 알림)
      팀원이 작업을 끝내거나 더이상 진행하지 못하고 멈췄을 때 리더에게 전달되는 이벤트
+  https://code.claude.com/docs/ko/agent-teams
   
   실습 2, 6, 11, 12, 13, 14
    
