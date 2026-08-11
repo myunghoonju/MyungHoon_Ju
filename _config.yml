@@ -1,33 +1,55 @@
-title: MYUNGHOON JU
-description: ""
-author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "myunghoonju@gmail.com"
-    - label: "LinkedIn"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.linkedin.com/in/myunghoonju/"
+title: "MYUNGHOON JU"
+description: "Notes on Java, OOP, and software engineering"
+logo_img: "/assets/img/favicon.webp"
+profile_img: "/assets/img/storm_on_the_black_sea.jfif"
+
+# Social Links
+email: myunghoonju@gmail.com
+github_username: myunghoonju
+twitter_username:
+instagram_username:
+linkedin_username: myunghoonju
+facebook_username:
+
+# External API
+giscus_repo:
+giscus_repoId:
+giscus_category:
+giscus_categoryId:
+goatcounter_code:
+google_analytics:
+
+# If your repo name follows the format "<user-name>.github.io", then leave the below blank.
+# Otherwise, set its value as "/<repo-name>". ex) baseurl: /myblog
+baseurl: /MyungHoon_Ju
+
+# Build settings
 plugins:
   - jekyll-feed
-  - jemoji
-logo: "storm_on_the_black_sea.jfif"
-theme: jekyll-theme-minimal
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-loading-lazy
+
+exclude:
+  - docs/
+  - README.md
+  - harness/
+
+collections:
+  pages:
+    output: true
+    permalink: /:path.html
 
 defaults:
-  # _posts
-  - scope:
+  -
+    scope:
       path: ""
-      type: posts
+      type: "pages"
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      img: true
+      layout: "page"
+      date: "1900-01-01"
+
+# Markdown newline activator
+kramdown:
+  input: GFM
+  hard_wrap: true
