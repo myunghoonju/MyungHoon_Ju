@@ -21,8 +21,9 @@ document.addEventListener('DOMContentLoaded', function(){
     var siteNav = document.querySelector('#navigation');
     var siteContact = document.querySelector('#contact');
     var menuButton = document.querySelector("#btn-nav");
+    var homeButton = document.querySelector("#btn-home");
 
-    menuButton.addEventListener('click', function() {
+    function toggleNavList() {
         if (menuButton.classList.toggle('nav-open')) {
             siteNav.classList.add('nav-open');
             siteContact.classList.add('contact-open');
@@ -30,7 +31,20 @@ document.addEventListener('DOMContentLoaded', function(){
             siteNav.classList.remove('nav-open');
             siteContact.classList.remove('contact-open');
         }
-    });
+
+        var isOpen = menuButton.classList.contains('nav-open');
+        menuButton.ariaPressed = isOpen;
+        if (homeButton) homeButton.ariaPressed = isOpen;
+    }
+
+    menuButton.addEventListener('click', toggleNavList);
+
+    if (homeButton) {
+        homeButton.addEventListener('click', function(e) {
+            e.preventDefault();
+            toggleNavList();
+        });
+    }
 
     // kept nav opened
     var firstNavs = document.querySelectorAll('#nav-first');
