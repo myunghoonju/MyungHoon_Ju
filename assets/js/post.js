@@ -113,11 +113,15 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 
     // Move to Comment
-    document.getElementById('comments-counter').addEventListener('click', function(){
-        document.getElementById("giscus").scrollIntoView({
-            behavior: 'smooth'
+    const commentsCounter = document.getElementById('comments-counter');
+
+    if (commentsCounter) {
+        commentsCounter.addEventListener('click', function(){
+            document.getElementById("giscus").scrollIntoView({
+                behavior: 'smooth'
+            });
         });
-    });
+    }
 
     // Code highlighter
     if (currentTheme === 'dark'){
@@ -227,6 +231,8 @@ window.addEventListener('load', function(){
         
         const giscusData = event.data.giscus;
         const commentCount = document.getElementById('num-comments');
+
+        if (!commentCount) return;
 
         if (giscusData && giscusData.hasOwnProperty('discussion')) {
             commentCount.innerText = giscusData.discussion.totalCommentCount;
