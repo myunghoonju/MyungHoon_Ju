@@ -2,6 +2,7 @@
 title: "About"
 date: "2026-08-11"
 bookmark: true
+permalink: /
 ---
 ### Links
 - [CV](https://docs.google.com/document/d/1-LUG83yUClO6zEAMZrxbZy3DAPcCRSh-EYokuk5Etbo/edit?usp=sharing)
