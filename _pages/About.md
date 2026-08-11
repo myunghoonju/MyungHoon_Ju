@@ -15,9 +15,3 @@ permalink: /
 - **더블다운인터액티브 - 서버개발팀**
   - 2020.02 - 2021.10
   - 어드민, 게임 서비스 운영 / 개발
-
-### News
-- 십자인대 파열: 2022.06.17
-    - 휴직: 2022.06.17~2022.11.30
-    - [Rehabilitation note_2022](https://docs.google.com/document/d/1TR7XZw0wRNqMmsUnf-f2GO2urjwLKBanJM9dJQePw58/edit?usp=sharing)
-    - [Rehabilitation note_2023](https://docs.google.com/document/d/1GDOack_Uf0pv5ZoWO0emTzveGV7XfXYMiMN1nPnGByU/edit?usp=sharing)
